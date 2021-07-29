@@ -19,21 +19,3 @@ All notable changes to this project will be documented in this file. See [standa
 * add the eamil notification of the screened stock result ([2a7fdbf](https://github.com/Hao-Wei-Huang/tw-stock-api/commit/2a7fdbf52a823eac4c93e25f91cc66bb8d8180b7))
 * add user info api ([fa596dd](https://github.com/Hao-Wei-Huang/tw-stock-api/commit/fa596ddcc088912c4244ce295ef374200002ab9b))
 * establish initial environment ([88ba863](https://github.com/Hao-Wei-Huang/tw-stock-api/commit/88ba863dca86fe83c925dc9eeaef3955083e8152))
-
-## 1.0.0 (2021-07-29)
-
-
-### Features
-
-* add auth function for login, logout and signup 7f37202
-* add check stock no api da060d3
-* add chose stock lists api 9c0f996
-* add database connection a259e00
-* add search stocks api edc5e4a
-* add single stock info api a102c2f
-* add stock screenr api b5a9882
-* add stock track api 73bd2d4
-* add the auth and session middlewares 820204e
-* add the eamil notification of the screened stock result 2a7fdbf
-* add user info api fa596dd
-* establish initial environment 88ba863
