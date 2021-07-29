@@ -1,5 +1,5 @@
 const express = require('express');
-const screenStocks = require('../stock/screenStocks');
+const screenStocks = require('../stock/screen-stocks');
 
 const router = express.Router();
 
