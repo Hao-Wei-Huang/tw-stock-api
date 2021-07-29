@@ -1,6 +1,6 @@
 const express = require('express');
 const Database = require('../connections/database');
-const screenStocks = require('../stock/screenStocks');
+const screenStocks = require('../stock/screen-stocks');
 
 const router = express.Router();
 
