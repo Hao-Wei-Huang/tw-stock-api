@@ -1,8 +1,51 @@
 # TW Stock API
 
-## Introduction 
-
 This is a web server providing RESTful API. This API includes member authentication, single stock information, stock query, etc. Make the website can get plenty and detailed stock data.
+
+## Installation
+
+Before installing, install Node.js and npm.
+
+1. Download this project
+    ```
+    git clone https://github.com/Hao-Wei-Huang/tw-stock-api.git
+    ```
+2. Install the modules for the project
+    ```
+    cd tw-stock-api
+    npm install
+    ```
+3. Setting environmental variables
+    ```
+    touch .env
+    ```
+    * Database account
+      ```
+      DB_HOST = { host }
+      DB_PORT = { port }
+      DB_USER = { user }
+      DB_PASSWORD = { password }
+      ```
+    * Database table name
+      ```
+      DB_AUTH_TABLE = auth
+      DB_COMPANY_TABLE = company
+      DB_TECH_TABLE = technique
+      DB_CHIP_TABLE = chip
+      DB_FUNDAMENT_TABLE = fundament
+      ```
+    * Session secret key
+      ```
+      SESSION_SECRET = { secret key }
+      ```
+    * Email account ( optional )
+      
+      Use gmail to implement email notification, so need email account.
+      If you don't need email notification, you can neglect it.
+      ```
+      EMAIL_ACCOUNT = { account }
+      EMAIL_PASSWORD = { password }
+      ```
 
 ## Features
 
