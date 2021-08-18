@@ -25,6 +25,7 @@ Before installing, install Node.js and npm.
       DB_PORT = { port }
       DB_USER = { user }
       DB_PASSWORD = { password }
+      DB_NAME = { name }
       ```
     * Database table name
       ```
@@ -46,6 +47,14 @@ Before installing, install Node.js and npm.
       EMAIL_ACCOUNT = { account }
       EMAIL_PASSWORD = { password }
       ```
+
+## Usage
+
+Start web server:
+
+```
+node app.js
+```
 
 ## Features
 
