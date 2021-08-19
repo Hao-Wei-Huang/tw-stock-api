@@ -7,15 +7,18 @@ This is a web server providing RESTful API. This API includes member authenticat
 Before installing, install Node.js and npm.
 
 1. Download this project
+
     ```
     git clone https://github.com/Hao-Wei-Huang/tw-stock-api.git
     ```
 2. Install the modules for the project
+
     ```
     cd tw-stock-api
     npm install
     ```
 3. Setting environmental variables
+
     ```
     touch .env
     ```
